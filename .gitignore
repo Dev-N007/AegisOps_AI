@@ -1,0 +1,45 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+web_loaders/
+.venv/
+venv/
+env/
+ENV/
+bin/
+obj/
+docs/
+# Local databases and vector indexes
+*.db
+*.sqlite
+vector_db/
+backend/vector_db/
+backend/aegisops.db
+
+# Environment configs (API Keys / Passwords)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# Build outputs and caches
+.next/
+out/
+build/
+dist/
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.eslintcache
+
+# OS Files
+Thumbs.db
+db.json
+desktop.ini
+.DS_Store
